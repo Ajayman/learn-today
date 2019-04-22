@@ -14,3 +14,17 @@
     "custom-color": #900
     );
 - mixins
+   for reuse the code
+   @mixin transform($property){
+      transform: $property
+   }
+   call the transform from
+      .box{@include transform(rotate(30deg));}
+      
+      
+   #Reboot
+   -  Element specific changes to the html
+      eg. in <table> element -> .table-border
+   
+   #components
+   - Alert, Badge , breadcrumb
