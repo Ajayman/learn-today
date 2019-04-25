@@ -43,3 +43,7 @@
       perform multiple task simultaneously
    #gulp-plumber
       execute task even when error using error handler
+      
+#2019/4/25
+   owl-carousel
+      - No need to wrap in class="col" inside the owl-carousel class
