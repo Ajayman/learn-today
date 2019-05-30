@@ -47,3 +47,6 @@
 #2019/4/25
    owl-carousel
       - No need to wrap in class="col" inside the owl-carousel class
+      
+#2019/5/30
+fixed first column and header -> https://www.cssscript.com/fix-table-header-column/
