@@ -50,3 +50,6 @@
       
 #2019/5/30
 fixed first column and header -> https://www.cssscript.com/fix-table-header-column/
+
+#2019/6/3
+SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary
