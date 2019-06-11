@@ -23,33 +23,45 @@
       .box{@include transform(rotate(30deg));}
       
       
-   #Reboot
+# Reboot
    -  Element specific changes to the html
       eg. in <table> element -> .table-border
    
-   #components
+# components
    - Alert, Badge , breadcrumb
 
- #2019/4/23
- #Json object and array filter
+# 2019/4/23
+# Json object and array filter
     - data= {one:{ id:1,name:'hiro', age:25}, two:{id:2,name:'hira',age:15}}; //assign data with object
     - datas.filter(data => data.age <20 )      //ES6 method to filter
     - datas.filter(function(data){if(data.age<25){return data}})  //using filter function
     - for (var i=0; i<datas.length; i++){ if (datas[i].age < 25) {filter_data.push(datas[i])}} //using for loop
 
 
-#2019/4/24
+# 2019/4/24
    #gulp pipe
       perform multiple task simultaneously
    #gulp-plumber
       execute task even when error using error handler
       
-#2019/4/25
+# 2019/4/25
    owl-carousel
       - No need to wrap in class="col" inside the owl-carousel class
       
-#2019/5/30
+# 2019/5/30
 fixed first column and header -> https://www.cssscript.com/fix-table-header-column/
 
-#2019/6/3
+# 2019/6/3
 SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary
+
+# 2019/6/10
+# Html Forms  
+- html form for collecting user input, form element, input type, input attribute 
+- form elements like type text,radio,submit and more    -> https://www.w3schools.com/html/html_forms.asp
+# form validation
+- form validation to send exact data to the server 
+   eg. numeric validation, constraint validation(max,disabled,min),  -> https://www.w3schools.com/js/js_validation.asp
+   
+# Js Events
+  - onclick, oninput(type and display simultaneously), onchange, mouse hover -> https://www.w3schools.com/js/js_htmldom_events.asp
+# Created simple accordion using js add and remove css class
