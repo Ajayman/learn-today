@@ -64,4 +64,9 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
    
 # Js Events
   - onclick, oninput(type and display simultaneously), onchange, mouse hover -> https://www.w3schools.com/js/js_htmldom_events.asp
-# Created simple accordion using js add and remove css class
+# Created simple accordion using js add and remove css class\
+
+
+#dom manipulation (2019/6/19)
+   - get dom element's property using class name or tag name      https://www.w3schools.com/js/js_htmldom.asp
+   - accessed the list of same named class using document.getElementsByClassName("ClassName");
