@@ -38,6 +38,7 @@
     - for (var i=0; i<datas.length; i++){ if (datas[i].age < 25) {filter_data.push(datas[i])}} //using for loop
 
 
+
 # 2019/4/24
    #gulp pipe
       perform multiple task simultaneously
@@ -74,3 +75,8 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 
 #collaborator for other git account(2019/6/25)
    - setting and collaborator and search name and collaborate
+
+
+# issue in mozilla of daterange picker             http://www.daterangepicker.com/
+   - dropdown list flicks because of dropdownlist knows only layout of body not above modal so need to add option in script
+         "parentEl": "#modal Id"
