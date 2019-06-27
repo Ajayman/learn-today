@@ -77,6 +77,13 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
    - setting and collaborator and search name and collaborate
 
 
-# issue in mozilla of daterange picker             http://www.daterangepicker.com/
+# issue in mozilla of daterange picker(6/26)             http://www.daterangepicker.com/
    - dropdown list flicks because of dropdownlist knows only layout of body not above modal so need to add option in script
          "parentEl": "#modal Id"
+
+# git command to pull data from forked repo(6/27)
+   - git remote -v      -> shows current remote repo for you fork       https://help.github.com/en/articles/configuring-a-remote-for-a-fork
+   - git remote add upstream http://(forked remote repo url)      -> new upstream that will be synced with the fork 
+   - git remote -v       -> shows added upstream in remote
+   
+   - git pull upstream master       -> pull the changes made by other repo that you forked from
