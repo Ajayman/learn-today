@@ -87,3 +87,6 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
    - git remote -v       -> shows added upstream in remote
    
    - git pull upstream master       -> pull the changes made by other repo that you forked from
+
+# JS api to get data from url endpoint(6/30)             https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
+   - it is an example to retrieve Json data from endpoint url 
