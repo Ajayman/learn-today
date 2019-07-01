@@ -90,3 +90,6 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 
 # JS api to get data from url endpoint(6/30)             https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
    - it is an example to retrieve Json data from endpoint url 
+   
+# how to see server response in browser(7/1)    https://www.mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/ 
+   - from which url and the response the data is responded all are shown in network tab
