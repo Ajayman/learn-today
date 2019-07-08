@@ -93,3 +93,6 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
    
 # how to see server response in browser(7/1)    https://www.mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/ 
    - from which url and the response the data is responded all are shown in network tab
+   
+# array filter JS
+   - https://alligator.io/js/filter-array-method/
