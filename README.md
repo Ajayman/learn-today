@@ -101,3 +101,7 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
    - git branch <branch name> create branch in the origin
    - git branch -b <branch name> create branch and switch to <branch name> at a time
    - git checkout <branch name> switch to <branch name>
+   
+   
+# Show commit history ->  git log
+# Reset code to previous commited code -> git reset --hard
