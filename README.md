@@ -132,4 +132,6 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
      object are written by curly bracket
      written as key: value seperated by comma
      obj = {device: 'laptop', price: "20k", id: 1, boolean : true, model : undefined, person: []}
+     object = {citizenship_no. : {name: 'ajay', address: 'kamalbinayak', number: 9841110000}};
      
+
