@@ -144,3 +144,8 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
       dynamically typed language perform type checking at runtime(at the time of when executable code is running)
       
    compile time and runtime    http://net-informations.com/python/iq/checking.htm
+
+# request and response in server (http request )
+     it is like request to the bank and response by the the bank
+      
+   
