@@ -134,4 +134,11 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
      obj = {device: 'laptop', price: "20k", id: 1, boolean : true, model : undefined, person: []}
      object = {citizenship_no. : {name: 'ajay', address: 'kamalbinayak', number: 9841110000}};
      
-
+# Static data type:(C++, java)
+     static data means data type is declared before you can use them.
+     statically typed language perform type checking at compile time(converting to executable code).
+      boolean result = true;
+      
+# Dynamic data type:(js, python)
+      dynamic data type means data type is automatically changed according to assigned data 
+      dynamically typed language perform type checking at runtime(at the time of when executable code is running)
