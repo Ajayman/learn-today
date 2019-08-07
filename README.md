@@ -142,3 +142,5 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 # Dynamic data type:(js, python)
       dynamic data type means data type is automatically changed according to assigned data 
       dynamically typed language perform type checking at runtime(at the time of when executable code is running)
+      
+   compile time and runtime    http://net-informations.com/python/iq/checking.htm
