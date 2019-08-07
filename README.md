@@ -145,7 +145,8 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
       
    compile time and runtime    http://net-informations.com/python/iq/checking.htm
 
-# request and response in server (http request )
+# request and response in server (http request)
      it is like request to the bank and response by the the bank
-      
+      Example: if you registered in bank with NPR account, if you deposit in dollar and there is no option to accept dollar by the bank then you are rejected or there is an error according to programming logic 
+      OR if you request for dollar they have option to convert and give dollar then they accept and there is no error 
    
