@@ -1,0 +1,13 @@
+VUe Instance
+  ** data and method
+  ** Object freeze
+  ** $ is used to define vue property 
+  ** life cycle created, mounted, destroyed
+  
+  
+Class and style binding
+  ** changing the element attribute in class, inline style 
+  eg. v-bind: class="" , v-bind: style=""
+  
+List rendering
+  v-for -> iterate the item and index of current item eg v-for = "(item, index) in items"
