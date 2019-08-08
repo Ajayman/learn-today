@@ -1,0 +1,9 @@
+1. Asynchronous Javascript and Xml
+2. Request without reload 
+3. request and response data piece by piece
+4. Javascript is all to do this to request only the part of the data and response to it
+5. XHR api of javascript handles to send request and response data from server
+
+What XHR 
+  XmlHttpRequest is not XML
+  AJAX request can be in any format Text, HTML and JSON object
