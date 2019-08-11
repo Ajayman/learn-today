@@ -13,3 +13,14 @@ List rendering
   v-for -> iterate the item and index of current item eg v-for = "(item, index) in items" (aplied for array)
   v-for -> v-for = "(value, name) in items" (applied for object)
   v-for -> v-for = "(value, name, index) in items" (aplied for object rendering index too)
+  
+Component
+  Reusable vue instance with a name
+    -> eg.  Vue.compoent('name', {
+             data: function(){
+              return{
+               count: 0
+              }
+             },
+             template: '<button v:on click= "count++">You clicked me {{ count }} times.</button>'
+           })
