@@ -24,3 +24,8 @@ Component
              },
              template: '<button v:on click= "count++">You clicked me {{ count }} times.</button>'
            })
+
+
+Installation
+   npm install -g @vue/cli    -> installing vue/cli will make use of vue command
+   vue create project_name    -> will install necessay file to execute vue 
