@@ -1,0 +1,6 @@
+URL(path) ->component -> load file -> html/template used in component and  JS -> API -> SQL database -> response -> data -> VUE -> html
+
+here, the url you entered is the path by which the component is called. The component consist of html template and script(JS). 
+The template is simply a markup language enclosed in tags and template. And script(JS) request using AXIOS library using http 
+request like get, post, put , delete and add. The request from JS to Database has a bridge or connection established by API. The API
+configure the access to database and when database request matches the response is send to VUE data and show in HTML as designed.
