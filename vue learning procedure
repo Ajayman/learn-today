@@ -27,5 +27,14 @@ Component
 
 
 Installation
+ vue cli and vue project run
+ 
    npm install -g @vue/cli    -> installing vue/cli will make use of vue command
    vue create project_name    -> will install necessay file to execute vue 
+
+axios(promised based http client)
+  npm install axios
+  
+element ui
+  npm install element-ui -S
+  
