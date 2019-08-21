@@ -1,0 +1,11 @@
+Session based:
+    session based authentication means when loged in the server creates and stores session then server response data with the 
+    cookie session id. Every time the server checks the session id when clients request to the server.
+    
+Token based:
+    it is similar to session based only the server stores session id but token is secretly stored and every time the client request 
+   with the token.
+   
+   
+   Reference:
+    https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4
