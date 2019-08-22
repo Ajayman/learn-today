@@ -1,3 +1,5 @@
+Routing
+
 URL(path) ->component -> load file -> html/template used in component and  JS -> API -> SQL database -> response -> data -> VUE -> html
 
 here, the url you entered is the path by which the component is called. The component consist of html template and script(JS). 
