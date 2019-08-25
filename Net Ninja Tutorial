@@ -1,0 +1,60 @@
+1. Vue Introduction
+  A fromtEnd Framework
+  
+2. VUe Instance
+  **Works seperately with the html
+  **initiated by new Vue({object pass})
+  **here object parameter will control the application
+  **new VUe({
+    el: '#vue-app'         //here vue-app will control the html element defined with vue-app id
+  })
+  
+3. Data & Methods
+  Data instace declare the variable for the vue to output in the dom
+  
+4. Data Binding
+  **Bind the data with the html attribute like href, style, type
+  ** Bind data does not need curly braces to show effect in dom
+  ** simply written as v-bind:href="data"
+  ** v-html directive will bind the html string defined in data instance to dom 
+  
+5. Events
+  ** when v-on:click="data instance++"  here we can access data without curly braces
+  
+6. Events Modifiers
+  ** when v-on:click.once is a modifier for click event operated only once
+  
+7. Keyboard Events
+  ** keyboard events like v-on:keyup and v-on:keyup.enter. These are the events when you key up your keyboard and action on
+  while enter(v-on:keyup.enter)
+  
+8. Two way data binding(v-model)
+  **effect on data instance and html dom from front or back
+  
+9. Computed Properties
+  ** It is defined in the computed method. 
+  ** For any logic that requires more than one expression, you should use a computed property.
+  
+    <div id="example">
+  a={{ a }}, b={{ b }}
+</div>
+
+var vm = new Vue({
+  el: '#example',
+  data: {
+    a: 1
+  },
+  computed: {
+    // a computed getter
+    b: function () {
+      // `this` points to the vm instance
+      return this.a + 1
+    }
+  }
+})
+
+14. Multiple Vue Instance
+  ** It means more or seperated VUe instance with data class methods
+  
+15. Root component
+  ** here in Vue app the App.vue is the root component
