@@ -37,6 +37,12 @@ Component
              template: '<button v:on click= "count++">You clicked me {{ count }} times.</button>'
            })
 
+Nested Components
+  here nested components means the child components is declared in a parent components. 
+
+Props: 
+  when parent component needs to transfer data to child component the props is used in child data and child component is nested 
+  in parent use bind name (:bindname = 'dataname') in the template and access by child template using 
 
 Installation
  vue cli and vue project run
