@@ -56,3 +56,7 @@ axios(promised based http client)
 element ui
   npm install element-ui -S
   
+Data passing from parent to child using (prop)
+  when data is passed from parent to child using prop and binding. The child can access the parent data but cannot change the 
+  data of the parent from child component. I cause a mutating error if we tried to change from child component
+
