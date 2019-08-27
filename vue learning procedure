@@ -60,3 +60,6 @@ Data passing from parent to child using (prop)
   when data is passed from parent to child using prop and binding. The child can access the parent data but cannot change the 
   data of the parent from child component. I cause a mutating error if we tried to change from child component
 
+Vue Router 
+  To access vue router properties we need to install vue-router 
+    To install -> npm install vue-router
