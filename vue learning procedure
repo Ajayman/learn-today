@@ -67,7 +67,7 @@ Vue Router
   To access vue router properties we need to install vue-router 
     To install -> npm install vue-router
     
-Vue API
+Vue API        https://riptutorial.com/vue-js/example/32039/using-vue--set
    Vue.$set(target, propertyName/index, value) ==> this will update the server response(value) to the vue instance array or object
    here,
      target => Object or array
