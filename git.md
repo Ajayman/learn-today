@@ -15,3 +15,11 @@ $ git remote set-url origin some-ssh-url
 $ ssh-keygen -t rsa -b 4096 -C "example@gmail.com"
 ```
 generated key is paste to the git hub
+
+
+Git branch
+Creating branch(2019/7/17) https://www.atlassian.com/ru/git/tutorials/using-branches
+
+    git branch create branch in the origin
+    git branch -b create branch and switch to at a time
+    git checkout switch to
