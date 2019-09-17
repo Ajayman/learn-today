@@ -150,3 +150,15 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
       Example: if you registered in bank with NPR account, if you deposit in dollar and there is no option to accept dollar by the bank then you are rejected or there is an error according to programming logic 
       OR if you request for dollar they have option to convert and give dollar then they accept and there is no error 
    
+   
+# run python server
+   Run python server in windows
+```
+
+    venv\Scripts\activate           -- to activate venv
+    pip install -r requirements.txt
+    python.exe manage.py migrate
+    python.exe manage.py users
+    python.exe manage.py runserver      -- to run server
+    python.exe manage.py runserver 0:8000   -- to run in external ip address need to IPV4 address of PC + port
+   
