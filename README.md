@@ -161,4 +161,25 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
     python.exe manage.py users
     python.exe manage.py runserver      -- to run server
     python.exe manage.py runserver 0:8000   -- to run in external ip address need to IPV4 address of PC + port
+```
+
+# nano scroll wont work on drop down  (nano scroll reference -- https://jamesflorentino.github.io/nanoScrollerJS/)
+   you need to initialize nano while bootstrap dropdown is clicked 
+    -- https://stackoverflow.com/questions/37183971/nano-scroller-is-not-working-in-bootstrap-dropdown-and-model-box
+    
+    
+# zoom effect owl carousel while hover and other sibling decreasing opacity --https://www.trysmudford.com/blog/fade-out-siblings-css-trick/
+ .parent:hover > * {
+   opacity: 0.5;
+   }
+   .parent:hover > *:hover {
+      transform: scale(1.1);
+      opacity: 1;
+   }
+  
+# owl carousel height can be increased by
+   https://stackoverflow.com/questions/47739738/owl-carousel-div-height-for-image-hover 
    
+  .owl-stage-outer {
+    padding: 10px;
+   }
