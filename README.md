@@ -183,3 +183,6 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
   .owl-stage-outer {
     padding: 10px;
    }
+
+2019/11/4 create env
+# env create to host_name, server_protocol, app_debug to access from cloud or from local storage
