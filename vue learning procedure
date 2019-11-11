@@ -73,3 +73,12 @@ Vue API        https://riptutorial.com/vue-js/example/32039/using-vue--set
      target => Object or array
      propertyName/index ==> string/number
      value ==> the response data
+     
+     
+Slot           https://medium.com/binarcode/understanding-scoped-slots-in-vue-js-db5315a42391
+
+  slot means add place or properties to components
+   for example: button.vue (a button component) can be customized text, markup like icon 
+   Tag is: <slot> </slot>(inside any tags)
+   
+   scoped-slot similar properties with slot 
