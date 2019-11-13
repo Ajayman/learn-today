@@ -82,3 +82,7 @@ Slot           https://medium.com/binarcode/understanding-scoped-slots-in-vue-js
    Tag is: <slot> </slot>(inside any tags)
    
    scoped-slot similar properties with slot 
+   
+   watch -> A Vue watcher allows you to listen to the component data and run whenever a particular 
+   property changes. A watcher is a special Vue.js feature that allows you to spy on one property of 
+   the component state, and run a function when that property value changes
