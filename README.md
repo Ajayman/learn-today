@@ -189,3 +189,7 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 
 2019/11/20 venv install in python project
 #(code) virtualenv.exe venv  -> to install vitual environment(venv) in python project
+
+2019/11/20 Live template in webstorm/pycharm 
+# go to setting -> editor -> live template 
+# fill abbreviation(shortform), description, template code
