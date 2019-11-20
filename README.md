@@ -184,5 +184,8 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
     padding: 10px;
    }
 
-2019/11/4 create env
+2019/11/4 create env(while you want to access the local or cloud backend code in your frontend server/project)
 # env create to host_name, server_protocol, app_debug to access from cloud or from local storage
+
+2019/11/20 venv install in python project
+#(code) virtualenv.exe venv  -> to install vitual environment(venv) in python project
