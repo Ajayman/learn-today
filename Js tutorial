@@ -1,0 +1,10 @@
+Introduction to JS ->
+  All browser know javascript and we can do crazy thing using js in webpage. Js make page more interactive.
+  Nowadays JavaScript runs in more places than just web browsers — it runs on web servers, phones and even robots!
+  The best way to learn is by learning from mistakes.
+  Practise from the console app of browser for learning javascript
+  
+  Values and variable
+    values are just components in javascript. 1, true, function(), "ajay" are example of values.
+    variables are container to store the values. The variable is used to store different values changes according to saved value.
+      They are pretty much like mailboxes.
