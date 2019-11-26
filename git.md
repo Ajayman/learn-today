@@ -23,3 +23,6 @@ Creating branch(2019/7/17) https://www.atlassian.com/ru/git/tutorials/using-bran
     git branch create branch in the origin
     git branch -b create branch and switch to at a time
     git checkout switch to
+
+Git reset to previous commit
+ git reset --hard
