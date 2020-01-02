@@ -7,4 +7,8 @@ Introduction to JS ->
   Values and variable
     values are just components in javascript. 1, true, function(), "ajay" are example of values.
     variables are container to store the values. The variable is used to store different values changes according to saved value.
-      They are pretty much like mailboxes.
+      They are pretty much like mailboxes
+      
+      
+  Find function 
+    find() finds the first value which satisfies the condition
