@@ -12,3 +12,10 @@ Introduction to JS ->
       
   Find function 
     find() finds the first value which satisfies the condition
+
+  Arrow Function(ES6 syntax)
+    var multiply = (x, y) => x * y;
+    
+    here (x,y) is function with parameter x and y
+          x*y is return statement
+    
