@@ -18,7 +18,12 @@ variables are like boxes where we can put anything.Box got name which is called 
     2. Should be meaningful word
     
 ### Constants 
-  
+  The fixed value in variable should be declared constant keyword
+  ```
+    For Example : 
+    const interestRate = 10;
+    here interestRate value wont change if assigned another value;
+  ```
   
   
   
