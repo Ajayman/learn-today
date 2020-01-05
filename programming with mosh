@@ -1,0 +1,38 @@
+# Programming with Mosh
+
+### Js code run on Browser
+  1. Browser has Javascript Engine
+  Browser has javascript Engine which runs javascript code as FireFox has SpiderMonkey and Chrome has V8
+  
+  2. Javascript Engine combined with C++ and created outside the browser called Node. Execute runtime js code.
+  
+### Different between ECMAScript and Javascript
+  ECMAScript is just specification and its just a standard. ECMAScript released in 2015 is ES6
+  Javascript is programming language using that ECMAScript standard
+  
+  
+  
+  
+  headers
+   # h1 (headers1)
+   ## h2 (headers2)
+   
+  emphasis
+    *emphasis1*
+    _emphasis2_
+    
+  list
+    1. List 1
+    2. List 2
+    ..* Unordered Sublist
+    * unordered list using *
+    - unordered list using -
+    + unordered list using +
+    
+  links
+    [inline style links](google.com)
+    [inline links with title](google.com "Google Homepage")
+    
+  images
+    inline style: 
+    ![alt text](image links)
