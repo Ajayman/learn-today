@@ -2,11 +2,11 @@ headers
    # h1 (headers1)
    ## h2 (headers2)
    
-  emphasis
+  ## emphasis
     *emphasis1*
     _emphasis2_
     
-  list
+  ## list
     1. List 1
     2. List 2
     ..* Unordered Sublist
@@ -14,10 +14,10 @@ headers
     - unordered list using -
     + unordered list using +
     
-  links
+  ## links
     [inline style links](google.com)
     [inline links with title](google.com "Google Homepage")
     
-  images
+  ## images
     inline style: 
     ![alt text](image links)
