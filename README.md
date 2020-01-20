@@ -193,3 +193,13 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 2019/11/20 Live template in webstorm/pycharm 
 # go to setting -> editor -> live template 
 # fill abbreviation(shortform), description, template code
+
+2020/1/20 HTML5 Web Storage
+# With Web Storage, web data can store data locally within the users browser
+# Before HTML5 data had to be stored in cookies, included in every server request. Web storage is more secure and large storage 
+can be stored locally
+   There are two options to store data locally.
+      window.sessionStorage
+      Window.localStorage
+ To set on local Storage
+   localStorage.setItem("firstName", "Ajay")
