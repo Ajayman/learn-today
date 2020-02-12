@@ -203,3 +203,19 @@ can be stored locally
       Window.localStorage
  To set on local Storage
    localStorage.setItem("firstName", "Ajay")
+
+2020/2/12 axios get from api
+# axios({
+                method: 'GET',
+                headers: {'Authorization': 'Token 58b4e11dde2013b8b0d72c3d7760d85399fa09b9'},
+                url: 'http://kasi.localhost:8001/api/v1/restaurant/restaurant-tables/' + this.uuid + '/'
+            })
+                .then((function (response) {
+                    this.restaurant1 = response.data;
+                    console.log(this.restaurant1);
+                }).bind(this))
+                .catch(function (error) {
+                    console.log(error);
+                })
+     here this.restaurant doesnot work as function in then only works after api response. So this.restaurant must bind to 
+     external this object instance 
