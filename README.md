@@ -219,3 +219,8 @@ can be stored locally
                 })
      here this.restaurant doesnot work as function in then only works after api response. So this.restaurant must bind to 
      external this object instance 
+     
+ # install quasar cli
+   npm i -g '@quasar/cli'(should enclose with '')
+   
+   not -> npm i -g @quasar/cli 
