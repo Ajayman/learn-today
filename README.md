@@ -224,3 +224,8 @@ can be stored locally
    npm i -g '@quasar/cli'(should enclose with '')
    
    not -> npm i -g @quasar/cli 
+   
+ # upgrade quasar version
+   yarn policies set-version (update to latest version) https://classic.yarnpkg.com/en/docs/cli/policies/#toc-policies-set-version
+   
+  quasar forum (all info on quasar)    https://forum.quasar-framework.org/topic/3309/v1-a-guide-for-quasar-dotenv
