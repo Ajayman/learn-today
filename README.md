@@ -229,3 +229,10 @@ can be stored locally
    yarn policies set-version (update to latest version) https://classic.yarnpkg.com/en/docs/cli/policies/#toc-policies-set-version
    
   quasar forum (all info on quasar)    https://forum.quasar-framework.org/topic/3309/v1-a-guide-for-quasar-dotenv
+
+
+# for gulp 4 version must matches to node(>12) version   https://stackoverflow.com/questions/55921442/how-to-fix-referenceerror-primordials-is-not-defined-in-node
+
+# for running gulp 4 task running is different from gulp 3 task running
+   as the gulp 4 requires .series or .parallel function
+   
