@@ -8,7 +8,7 @@
   basic localStorage()
   
 ##Need to learn soon
-  npmscript
+  npmscript(task runner)
   indexDB
   localStorage
   cookies
