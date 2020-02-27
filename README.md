@@ -236,3 +236,6 @@ can be stored locally
 # for running gulp 4 task running is different from gulp 3 task running
    as the gulp 4 requires .series or .parallel function
    
+   
+# Element UI form validation
+   the prop name must be same with the model name to validate
