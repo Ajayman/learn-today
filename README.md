@@ -244,3 +244,7 @@ can be stored locally
    onchange => when input value change and focus on other input field
    onblur => when input field is out of focus to other input field without input field value change
    onload => when browser has completely loaded its page.
+
+# Image type (2020/1/3)
+   svg => stands for scalar vector graphics. SVG uses two dimensional vector graphics format created by WWC.
+      It describes image using text format based on XML. 
