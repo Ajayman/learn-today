@@ -239,3 +239,8 @@ can be stored locally
    
 # Element UI form validation
    the prop name must be same with the model name to validate
+   
+# Javascript Events
+   onchange => when input value change and focus on other input field
+   onblur => when input field is out of focus to other input field without input field value change
+   onload => when browser has completely loaded its page.
