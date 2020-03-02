@@ -220,6 +220,35 @@ can be stored locally
      here this.restaurant doesnot work as function in then only works after api response. So this.restaurant must bind to 
      external this object instance 
      
+     token: Cookies.get("token"),
+     getEmployeeSetting(uuid) {
+                this.showSelect = false;
+                axios({
+                    method: "GET",
+                    headers: {Authorization: `Token ${this.token}`},
+                    url:
+                        "http://kasi.localhost:8001/api/v1/employee/employee-restaurant-settings/" +
+                        uuid +
+                        "/"
+                })
+                    .then(
+                        function (response) {
+                            this.update_employee.selectedStore = response.data.primary_store.uuid;
+                            this.update_employee.selectedBuilding =
+                                response.data.primary_restaurant_building.uuid;
+                            this.update_employee.selectedFloor = response.data.primary_restaurant_floor.uuid;
+                            this.update_employee.selectedFloorSection =
+                                response.data.primary_restaurant_floor_section.uuid;
+                            this.update_employee.selectedPosRegister = response.data.primary_pos_register.uuid;
+                            this.showFloorSectionSelect = false;
+                            this.showPosRegisterSelect = false;
+                            this.getStoreList(response.data.primary_store.uuid);
+                        }.bind(this)
+                    )
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            },
  # install quasar cli
    npm i -g '@quasar/cli'(should enclose with '')
    
