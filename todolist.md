@@ -11,8 +11,9 @@ See the frontend roadmap to see all the necessary requirement
   
 ##Need to learn soon
   npmscript(task runner)
-  indexDB
+  (priority)indexedDB(load data to indexedDB table that is fetched from API and retrieve data from indexeddb using vue js)
   localStorage
   cookies
   webpack(module bundler)
   debugger
+  
