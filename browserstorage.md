@@ -1,4 +1,4 @@
-# Web Storage
+# Browser Storage
   browser can store key/value much more intuitive(true even without consious reasoning) way than cookies
 
   ### Session Storage
@@ -10,3 +10,9 @@
       same thing like session storage but remains even the browser is closed 
       no expiration date and get cleared through JS or clearing browser cache/locally stored data
       maxium storage amoung three
+
+  ### Index DB
+      => low level API for storing significant amount of structured data
+     => IndexedDB is a transactional database system, like an SQL-based RDBMS.
+     => However, unlike SQL-based RDBMSes, which use fixed-column tables, IndexedDB is a JavaScript-based object-oriented database
+     => IndexedDB lets you store and retrieve objects that are indexed with a key; any objects supported by the structured clone algorithm can be stored.
