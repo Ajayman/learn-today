@@ -277,3 +277,6 @@ can be stored locally
 # Image type (2020/1/3)
    svg => stands for scalar vector graphics. SVG uses two dimensional vector graphics format created by WWC.
       It describes image using text format based on XML. 
+
+# upgrade yarn globally through npm
+   npm update --global yarn
