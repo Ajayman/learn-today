@@ -97,11 +97,13 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
 # array filter JS(2019/7/8)
    - https://alligator.io/js/filter-array-method/
    
-# Creating branch(2019/7/17)                       https://www.atlassian.com/ru/git/tutorials/using-branches
+# Creating (2019/7/17)                       https://www.atlassian.com/ru/git/tutorials/using-branches
    - git branch <branch name> create branch in the origin
    - git branch -b <branch name> create branch and switch to <branch name> at a time
    - git checkout <branch name> switch to <branch name>
-   
+
+# Merging (2020/3/25)
+   - git merge <branch name>
    
 # Show commit history ->  git log
 # Reset code to previous commited code -> git reset --hard
