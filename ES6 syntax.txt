@@ -1,0 +1,91 @@
+import "./styles.css";
+
+document.getElementById("app").innerHTML = `
+<h1>Hello Vanilla!</h1>
+<div>
+  We use Parcel to bundle this sandbox, you can find more info about Parcel
+  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
+</div>
+`;
+
+//ES6 Syntax code
+
+// Var let const
+var x = 10; //var used for variable declaration
+
+function useoflet() {
+  //use of let and const
+  let f = 5;
+  const y = 2;
+  console.log(y);
+  console.log(f);
+}
+console.log(x);
+
+//Arrow Function
+
+// x = function(m, n){  //ES5 syntax
+//   return console.log(m+n);
+// }
+
+x = (m, n) => console.log(m + n); //ES6 syntax
+x(2, 3);
+
+//Class declaration
+
+class Car {
+  //initialize of class
+  constructor(brand) {
+    this.carname = brand;
+    console.log(this.carname);
+  }
+}
+
+var myCar = new Car("ford"); // initialize object myCar referencing the Car class
+console.log(typeof myCar);
+
+// Default parameter Values
+// Here y is declared 10 if not passed parameter
+function myFunction(x, y = 10) {
+  console.log(y);
+  return x + y;
+}
+
+myFunction(5, 6);
+
+//array.find()
+//returns the value of the first array element that pass a test function.
+
+var numbers = [2, 5, 12, 56, 34];
+var first = numbers.find(greaterValue);
+console.log(first);
+function greaterValue(value, index, array) {      // function takes 3 arguments value, index and array itself
+  return value > 35;
+}
+
+
+//array.findIndex()
+// returns the index of the first array element that passes a test function
+
+var ages = [4,5,6,21,45,34];
+var first = ages.findIndex(greaterAge);
+console.log(first);
+function greaterAge(value, index, array){     // returns the first index 
+  return value > 23
+}
+
+
+
+
+//New Number Properties
+  
+//EPSILON
+//MIN_SAFE_INTEGER
+//MAX_SAFE_INTEGER
+
+//New Number Methods
+
+//Number.isInteger()
+//Number.isSafeInteger()
+
+//For More    visit   https://www.w3schools.com/js/js_es6.asp
