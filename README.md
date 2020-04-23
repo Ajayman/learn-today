@@ -282,3 +282,7 @@ can be stored locally
 
 # upgrade yarn globally through npm
    npm update --global yarn
+   
+   
+# date format with vue-moment 
+   https://github.com/brockpetrie/vue-moment?ref=madewithvuejs.com
