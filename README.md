@@ -286,3 +286,7 @@ can be stored locally
    
 # date format with vue-moment 
    https://github.com/brockpetrie/vue-moment?ref=madewithvuejs.com
+   
+# Asyc wait
+   async before function means a function always returns a promise. 
+   https://javascript.info/async-await
