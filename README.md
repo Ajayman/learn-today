@@ -292,3 +292,7 @@ can be stored locally
 # Asyc wait
    async before function means a function always returns a promise. 
    https://javascript.info/async-await
+   
+   
+# scss import and export variable
+   [scss features of import export] (https://vueschool.io/articles/vuejs-tutorials/globally-load-sass-into-your-vue-js-applications/)
