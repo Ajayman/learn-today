@@ -300,6 +300,7 @@ can be stored locally
 # Gulp 4 
    installation is similar to previous version
    required var gulp = require('gulp');
+   ```
       var nunjucksRender = require('gulp-nunjucks-render');
       var data = require('gulp-data');
       var watches = require('gulp-watch');
@@ -312,6 +313,6 @@ can be stored locally
       var imagemin = require('gulp-imagemin');
       var cache = require('gulp-cache');
       var browserSync = require('browser-sync').create();
-   
-   dont use uglify and minify on js at the same time
+   ```
+   # dont use uglify and minify on js at the same time
    
