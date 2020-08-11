@@ -296,3 +296,22 @@ can be stored locally
    
 # scss import and export variable
    [scss features of import export] (https://vueschool.io/articles/vuejs-tutorials/globally-load-sass-into-your-vue-js-applications/)
+   
+# Gulp 4 
+   installation is similar to previous version
+   required var gulp = require('gulp');
+      var nunjucksRender = require('gulp-nunjucks-render');
+      var data = require('gulp-data');
+      var watches = require('gulp-watch');
+      var cleanCSS = require('gulp-clean-css');
+      var autoprefixer = require('gulp-autoprefixer');
+      var concat = require('gulp-concat');
+      var rename = require('gulp-rename');
+      var minify = require('gulp-minify');
+      var uglify = require('gulp-uglify');
+      var imagemin = require('gulp-imagemin');
+      var cache = require('gulp-cache');
+      var browserSync = require('browser-sync').create();
+   
+   dont use uglify and minify on js at the same time
+   
