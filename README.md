@@ -316,3 +316,8 @@ can be stored locally
    ```
    # dont use uglify and minify on js at the same time
    
+   ### For the error
+   ```
+   Replace Autoprefixer browsers option to Browserslist config.Use browserslist key in package.json or .browserslistrc file.
+      replace 
+   ```
