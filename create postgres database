@@ -4,3 +4,8 @@
 `C:\Program Files\PostgreSQL\10\bin\psql.exe createdb visitingcardlist` 
 
  "C:\Program Files\PostgreSQL\10\bin\psql.exe"  -U postgres -d postgres -c "CREATE DATABASE visitingcardlist"
+
+need double inverted " in postgress 11
+```
+C:\"Program Files"\PostgreSQL\10\bin\psql.exe createdb visitingcardlist
+```
