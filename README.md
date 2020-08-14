@@ -321,3 +321,28 @@ can be stored locally
    Replace Autoprefixer browsers option to Browserslist config.Use browserslist key in package.json or .browserslistrc file.
       replace 
    ```
+   
+   
+   # create virtualenv for python 3.8
+   ```
+      1. install python3.8
+      C:\Users\Ajay\AppData\Local\Programs\Python\Python38\python.exe -m pip install --upgrade pip
+
+      2. install virtualenv
+
+      C:\Users\Ajay\AppData\Local\Programs\Python\Python38\Scripts\pip.exe install virtualenv
+
+      3. create virtualenv
+      C:\Users\Ajay\AppData\Local\Programs\Python\Python38\Scripts\virtualenv.exe venv
+
+
+
+
+      If lib magic issue in windows
+
+    This worked for me:
+
+    pip uninstall python-magic
+    pip install python-magic-bin==0.4.14
+
+   ```
