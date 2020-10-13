@@ -346,3 +346,9 @@ can be stored locally
     pip install python-magic-bin==0.4.14
 
    ```
+   
+   # lipipoint.com isotopes issues fixes
+   ```
+      load the isotopes code at first
+         [design reference] (https://codepen.io/aylinmarie/pen/NjwOGv)
+   ```
