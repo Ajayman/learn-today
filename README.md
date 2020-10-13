@@ -350,5 +350,5 @@ can be stored locally
    # lipipoint.com isotopes issues fixes
    ```
       load the isotopes code at first
-         [design reference] (https://codepen.io/aylinmarie/pen/NjwOGv)
+      [design reference] (https://codepen.io/aylinmarie/pen/NjwOGv)
    ```
