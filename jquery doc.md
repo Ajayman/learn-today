@@ -14,7 +14,7 @@ The jQuery syntax is tailor-made for selecting HTML elements and performing some
 
 Basic syntax is: $(selector).action()
 
-    1. A $ sign to define/access jQuery
+    1. A $ sign to define/access jQuery or selector to html element and then .action
     2. A (selector) to "query (or find)" HTML elements
     3. A jQuery action() to be performed on the element(s)
     
