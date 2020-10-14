@@ -364,3 +364,7 @@ can be stored locally
       9. product list clickable from whole section
       
    ```
+   
+   # flex wrap(2020/10/14)
+     [flexwrap](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+   
