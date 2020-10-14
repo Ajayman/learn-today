@@ -351,10 +351,13 @@ can be stored locally
       load the isotopes code at first
       [design reference] (https://codepen.io/aylinmarie/pen/NjwOGv)
       
-   # point to be noted on weekness
+   # point to be noted on weekness(everest canvas)
    ```
       text color inconsistent
       focus text
       hover on similar text
       look and feel in all the pages
+      copy reference as it
+      follow complete bootstrap documentation
+      detail data in the detail page
    ```
