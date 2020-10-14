@@ -361,5 +361,6 @@ can be stored locally
       6. follow complete bootstrap documentation
       7. detail data in the detail page
       8. top nav bar should not cover more height in mobile
+      9. product list clickable from whole section
       
    ```
