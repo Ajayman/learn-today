@@ -350,3 +350,11 @@ can be stored locally
    # lipipoint.com isotopes issues fixes
       load the isotopes code at first
       [design reference] (https://codepen.io/aylinmarie/pen/NjwOGv)
+      
+   # point to be noted on weekness
+   ```
+      text color inconsistent
+      focus text
+      hover on similar text
+      look and feel in all the pages
+   ```
