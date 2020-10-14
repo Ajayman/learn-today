@@ -353,11 +353,13 @@ can be stored locally
       
    # point to be noted on weekness(everest canvas)
    ```
-      text color inconsistent
-      focus text
-      hover on similar text
-      look and feel in all the pages
-      copy reference as it
-      follow complete bootstrap documentation
-      detail data in the detail page
+      1. text color inconsistent
+      2. focus text
+      3. hover on similar text
+      4. look and feel(similar layout pattern) in all the pages
+      5. copy reference as it
+      6. follow complete bootstrap documentation
+      7. detail data in the detail page
+      8. top nav bar should not cover more height in mobile
+      
    ```
