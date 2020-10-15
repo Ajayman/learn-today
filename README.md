@@ -162,7 +162,7 @@ SEO basics              -> https://moz.com/beginners-guide-to-seo/why-search-eng
     venv\Scripts\activate           -- to activate venv
     pip install -r requirements.txt
     python.exe manage.py migrate
-    python.exe manage.py users
+    python.exe manage.py createsuperuser
     python.exe manage.py runserver      -- to run server
     python.exe manage.py runserver 0:8000   -- to run in external ip address need to IPV4 address of PC + port
 ```
