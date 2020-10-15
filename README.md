@@ -367,4 +367,11 @@ can be stored locally
    
    # flex wrap(2020/10/14)
      [flexwrap](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+     
+   # issue while creating virtual venv(rcssmin issue)(2020/10/15)
+      ```
+         pip install wheel
+         pip install rcssmin --install-option="--without-c-extensions"
+         pip install rjsmin --install-option="--without-c-extensions"
+      ```
    
