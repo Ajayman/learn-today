@@ -375,4 +375,11 @@ can be stored locally
          pip install rcssmin --install-option="--without-c-extensions"
          pip install rjsmin --install-option="--without-c-extensions"
       ```
-   
+   # Url Configuration in python project
+      ```
+         Create a url in config>urls.py
+            path("canvas/size-and-price-guide/", pages.CanvasSizeAndPriceGuidePrintView.as_view(),
+                       name='canvas_single_print')
+         Url calls CanvasSizeAndPriceGuidePrintView.as_view() 
+         Add a template assigned in template_name 
+      ```
