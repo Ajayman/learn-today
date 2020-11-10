@@ -383,3 +383,8 @@ can be stored locally
          Url calls CanvasSizeAndPriceGuidePrintView.as_view() 
          Add a template assigned in template_name 
       ```
+
+   # Print Specific Div 
+   ```
+      [Githublink](https://gist.github.com/andrewlimaza/490a69417d9fe2df3f668195a7661605)
+   ```
