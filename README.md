@@ -387,4 +387,7 @@ can be stored locally
    # Print Specific Div 
    ```
    [Githublink] (https://gist.github.com/andrewlimaza/490a69417d9fe2df3f668195a7661605)
+   1. Can be used using JS code but button not worked in normal preview
+   2. Better to use CSS @media print media query to display: none to specific div and show to specific div
+   
    ```
