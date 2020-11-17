@@ -391,3 +391,16 @@ can be stored locally
    2. Better to use CSS @media print media query to display: none to specific div and show to specific div
    
    ```
+   
+   # Use Vue in django template
+   ```
+      add delimiters and replace to {{ }}
+      var appcustom = new Vue({
+         delimiters: ['[[',']]'],
+         el: '#appcustom',
+         data: {
+           message: 'Hello Vue!'
+         }
+       })
+   ```
+   [stacklink] (https://stackoverflow.com/questions/49948261/vuejs-data-wont-display/51007652)
