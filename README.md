@@ -404,3 +404,15 @@ can be stored locally
        })
    ```
    [stacklink] (https://stackoverflow.com/questions/49948261/vuejs-data-wont-display/51007652)
+   
+   # Service Worker 
+   ```
+      Rich Offline Experice, Periodic Background sync, push notifications that require native application
+      1. scripts work in background seperate from web page
+      2. dont need user interaction
+      
+      Service worker include
+      1. javascript worker can't access DOM directly instead Service worker communicate with postMessage and it can access DOM.
+      2. programmable network proxy allowing how network request are handled from your page.
+      3. terminated when not in use and restarted when next needed. when restart can be accessed from the indexedDB API.
+   ```
