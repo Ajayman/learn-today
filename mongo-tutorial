@@ -1,2 +1,5 @@
 # Mongo Introduction
-It is a document oriented database
+It is a document oriented database management system and works on document based database.
+Mondodb stores data in form of documents.
+Mongodb uses bson(binary json) format data to store databse which is optimized for speed, space and flexibility.
+Store in table in RDBMS but in MongoDb stores in collection(array) and each row in table as document and column in RDBMS but in mongo it is called fields
