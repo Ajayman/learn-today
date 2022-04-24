@@ -17,3 +17,5 @@ Store in table in RDBMS but in MongoDb stores in collection(array) and each row 
 ## to view document 
   db.jaysoft.find()
   
+## to show document in pretty format from the database
+    db.jaysoft.find().pretty()
