@@ -4,7 +4,7 @@ Mondodb stores data in form of documents.
 Mongodb uses bson(binary json) format data to store databse which is optimized for speed, space and flexibility.
 Store in table in RDBMS but in MongoDb stores in collection(array) and each row in table as document and column in RDBMS but in mongo it is called fields
 
-
+# 1 create databse, collections, document
 # create database
   use jaysoft [to create database and switch to it]
   
@@ -19,3 +19,17 @@ Store in table in RDBMS but in MongoDb stores in collection(array) and each row 
   
 ## to show document in pretty format from the database
     db.jaysoft.find().pretty()
+
+2. CRUD
+## to view which database is currently active
+  db
+  
+## to insert one document 
+  db.jaysoft.insertOne({})
+  
+## to insert multiple document
+  db.jaysoft.insertMany
+  
+ 3 Read ir queries
+ 
+ db.jaysoft.find()
