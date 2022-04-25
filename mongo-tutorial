@@ -21,6 +21,9 @@ Store in table in RDBMS but in MongoDb stores in collection(array) and each row 
     db.jaysoft.find().pretty()
 
 2. CRUD
+db.collection_name.insertOne() => inserting only one document
+db.colleciton_name.insertMany() => inserting many document at a single time
+
 ## to view which database is currently active
   db
   
@@ -32,4 +35,38 @@ Store in table in RDBMS but in MongoDb stores in collection(array) and each row 
   
  3 Read ir queries
  
- db.jaysoft.find()
+ ## Retrive certain document
+ db.jaysoft.find(query, projection)
+ example: db.jaysoft.find({name: "MongoDB"})
+ 
+ ## retrive certain field of certain document
+  db.jaysoft.find({name: "MongoDB", {_id: 0, name:1}})
+ 
+ ## retrive first document with field name and value match
+  db.jaysoft.find({active:true}).pretty()
+  
+## retrieve only one document with certain field and value but skipping first one
+  db.jaysoft.find({active:true}).pretty().limit(1).skip(1)
+  
+  
+ 4. Update Operation
+  UpdateOne() => db.Collection_name.updateOne(<filter>,<update>)
+    db.jaysoft.updateOne({name:"Javascript"}, {$set: {type: "Full Stack"}})
+    
+  UpdateMany() => db.colleciton.name.update(<filter>, <update>)
+    db.jaysoft.updateMany({active:true}, {$set: {type: "full stack"}})
+    
+ 5. delete document with deletion criteria
+  deleteMany() => db.collection_name.deleteMany(Deletion_criteria)
+  
+  delete collection
+    db.collection_name.deleteMany({})
+    
+    
+ Mongo Compass for GUI operation for easy access rather than mongo shell on CMD
+ 
+ Mongoose => framework for establishing connection between nodejs, express js to mongo
+ 
+ Mongoose is an Object Data Modeling(ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between
+ objects in code and the representation of those objects in MongoDB.
+ 
