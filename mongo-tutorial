@@ -70,3 +70,8 @@ db.colleciton_name.insertMany() => inserting many document at a single time
  Mongoose is an Object Data Modeling(ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between
  objects in code and the representation of those objects in MongoDB.
  
+ 
+ 6. Mongoose schema and models explanation and create collection using mongoose
+  After installation of mongoose connect with the db using
+    mongoose. connect("database_path")
+    
