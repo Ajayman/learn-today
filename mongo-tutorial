@@ -88,3 +88,17 @@ db.colleciton_name.insertMany() => inserting many document at a single time
 
 // collection creation
 // new mongoose.model("collection_name", schema_instance)
+
+//create document or insert
+`const createDocument = async() => {
+   try{
+      }catch{}
+`
+
+//getDocument
+`
+const getDocument = async () => {
+    const result = await Fabriclist.find({color:"Red"});
+    console.log(result);
+}
+`
