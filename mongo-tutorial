@@ -102,3 +102,13 @@ const getDocument = async () => {
     console.log(result);
 }
 `
+## mongoose query operators
+$gt means greater than operator
+$gte means greater than or equals to
+  `documents.find({color: "Red", price: {$gt: 500}})`
+
+
+## mongoose logical operators
+$and And operaotrs
+$or Or operators
+  `documents.find($and :  [{color:"Red", price: {$gt: 500}}])`
