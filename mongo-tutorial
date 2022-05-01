@@ -130,3 +130,13 @@ $or Or operators
 ## Rest API Postman
   Postman is an interactive an automatic tool for verifying the APIs of your project. Post is a Google Chrome aapp for interacting with HTTP APIs. 
   It presents you with a friendly GUI for constructing request and reading responses. It works on the backend,m and makes sure that each API is woring as intendded.
+
+
+
+## REST API
+  It is a short form of Representational State Transfer Application Programming Interface
+  It is a software that allows two applicaitons to communicate with each other over the internet and through various devices. Everu time you access an app like facebbok or check the weather on your smartophone, an 
+  API is used. 
+  A Restful API is an architectural style for an application program interface that uses HTTP requests to access and use data. REST is anot a programming language.
+  
+  
