@@ -112,3 +112,18 @@ $gte means greater than or equals to
 $and And operaotrs
 $or Or operators
   `documents.find($and :  [{color:"Red", price: {$gt: 500}}])`
+  
+  
+## npm validator
+  ### install npm package using
+  `npm i validator`
+  
+  ### for date validation, validate schema using 
+  `
+  validate(value){
+    if(!validator.isDate(value)){
+      throw new Error("Date is Invalid")
+    }
+  }
+  
+  `
