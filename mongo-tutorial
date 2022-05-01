@@ -127,3 +127,6 @@ $or Or operators
   }
   
   `
+## Rest API Postman
+  Postman is an interactive an automatic tool for verifying the APIs of your project. Post is a Google Chrome aapp for interacting with HTTP APIs. 
+  It presents you with a friendly GUI for constructing request and reading responses. It works on the backend,m and makes sure that each API is woring as intendded.
