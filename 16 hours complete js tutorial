@@ -1,0 +1,12 @@
+interview question 2
+what is NaN?
+NaN is a property of the global object.
+in others words, it is a variable in global scope.
+the initial value of NaN is Not-A-Number
+
+anonymous funtion
+funtion without name
+
+
+// var => funciton scope
+// let and const => Block Scope
