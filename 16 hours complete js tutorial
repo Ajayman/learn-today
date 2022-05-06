@@ -8,5 +8,35 @@ anonymous funtion
 funtion without name
 
 
+
+## ECMA6 important services
+  1. LET and CONST
+  2. Template strings
+  3. default arguments
+  4. rest operators
+  5. destructing
+  6. object properties
+  7. arrow functions
+  8. spread operators
+  
+  ### VAR vs CONST vs LET
 // var => funciton scope
 // let and const => Block Scope
+
+
+  ### template strings
+  remove the concats operators between strings
+  
+  variableName1 + " * " + variableName2
+  `${variableName1} *  ${variableName2}`
+  
+  ### Default Parameters
+  Default function parameters allow namned parameters to be initialized with default values if no value or undefined is passed.
+    const functionName(a, b=3){
+      return a*b;
+    }
+    functionName(3);
+    
+    
+   ### Arrow Function
+    const funtionName = () => `the sum of a and b is ${(a=5)+(b=5)}`
