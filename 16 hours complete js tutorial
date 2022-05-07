@@ -40,3 +40,8 @@ funtion without name
     
    ### Arrow Function
     const funtionName = () => `the sum of a and b is ${(a=5)+(b=5)}`
+    
+    
+  ## Callback Function
+  ### Any function that is passed as an argument is called a callback function.
+  ### A callback is a function that is to be executed after another function has finished executing. hence the name 'callback'.
