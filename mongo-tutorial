@@ -137,6 +137,20 @@ $or Or operators
   It is a short form of Representational State Transfer Application Programming Interface
   It is a software that allows two applicaitons to communicate with each other over the internet and through various devices. Everu time you access an app like facebbok or check the weather on your smartophone, an 
   API is used. 
-  A Restful API is an architectural style for an application program interface that uses HTTP requests to access and use data. REST is anot a programming language.
+  A Restful API is an architectural style for an application program interface that uses HTTP requests to access and use data. REST is  not a programming language.
+  
+  request server through get, post, patch/put, delete
+  
+  ### for singular create form
+  `http://ajaysoft.com/api/user (post verb)`
+  ### for reading multiple user 
+  `http://ajaysoft.com/api/users (get verb)`
+  ### for updating user 
+  `http://ajaysoft.com/api/users (patch verb)`
+  ### for delete user 
+  `http://ajaysoft.com/api/user (delete verb)`
+ 
   
   
+  ## As per the REST architecture, the server does not store any state about the client session on the server-side. Statelessness means every HTTP request happens in complete
+  isolation. When the client makes an HTTP request, it includes all information necessary for the server to fulfill that request.
