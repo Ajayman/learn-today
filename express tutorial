@@ -5,3 +5,28 @@
   
   ## why do we actually need Express.js? How it is useful for us to use with Node.js?
     try to write a small Rest API server in plian Node.js (that is , using only core modules) and then in Express.js. The latter will take you 5-10x less time and lines of code.
+
+## Features
+  1. Robust routing
+  2. Focus on high performance
+  3. Super-high test coverage
+  4. HTTP helpers (redirection, caching, etc)
+  5. View system supporting 14+ template engines
+  6. Content negotiation
+  7. Executable for generating applications quickly
+
+
+
+## Express code
+`const express = require("express");
+ const app = express();
+
+ app.get(route, callback)
+ app.get("/", (req,res))
+ `
+ 
+ ### THe callback function has 2 paramters, request(req) and response(res). THe request object(req) represents the HTTP request and has properties for the request query
+ string, parameters, body, HTTP headers, etc.
+ ### Similarly, the response object represents the HTTP response that the Express app sends when it receive an HTTP request.
+ 
+ 
