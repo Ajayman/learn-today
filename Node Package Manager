@@ -1,0 +1,22 @@
+# What is NPM?
+  1. npm is the world's largest Software Registry.
+  2. The registry contains over 800,000 code packages.
+  3. Open-source developers use npm to share software.
+  4. It is like a warehouse like Amazon.
+  
+  
+# Installing NPM
+  1. npm is installed with Node.js
+  2. This means that you have to install Node.js to get npm installed on your computer.
+  
+
+# Software Package Manager
+  1. All npm packages are defined in files called package.json.
+    ` example : npm init `
+    2. The content of package.json must be written in JSON.
+    3. At least two fields must be present in the defination file: name and version.
+    
+   
+ # Command line Client
+  1. npm includes a CLI (Command Line Client) that can be used to download and install software.
+  2. npm can manage dependencies.
