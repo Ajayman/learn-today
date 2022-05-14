@@ -25,3 +25,15 @@
  Eval- Takes and evaluates the data structure.
  print - Prints the result.
  Loop - Loops the above command until the user presses ctrl-c twice.
+
+
+
+## Create File
+ `type nul > index.js`
+ 
+ # REPL
+  1. js Expression
+  2. use variables
+  3. Multiline code
+  4. use (_) to get the last result
+  5. we can use editor mode
