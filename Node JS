@@ -1,0 +1,10 @@
+# Node JS
+ 1. Node.js is a Javascript runtime built on Chrome's V8 javascript Engine
+ 2. Node.js is  
+ 
+# History Of Nodejs
+  In 2009 an idea came in the mind of Ryan Dahl (Google Engineer) that why not run JavaScript outside browser, so he took V8 engine and embeded in a C++ program
+  and called it Node.exe lateron became Nodejs.
+  
+# When to use Node js?
+  
