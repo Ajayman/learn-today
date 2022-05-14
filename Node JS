@@ -37,3 +37,29 @@
   3. Multiline code
   4. use (_) to get the last result
   5. we can use editor mode
+
+
+## Node JS Core Modules
+ Consider modules to be the same as JS Libraries. A set of function s you want to inculude in your application.
+ Node.js has a set of built-in modules which you can use without any further installation.
+ 
+ 
+## creating a new file
+fs.writeFIleSync("file_name", "welcome")
+
+## to append on previous data of file
+fs.appendFileSync("file_name", "how are you")
+
+
+## const buf-data = fs.readFileWSunc("file_name")
+
+Node.js includes an additional data type called Buffer (not available in browser's JS).
+Buffer is mainly used to store binary data,
+while reading from a file or receiginf packets over the network
+
+## to convert binary data into string
+`binary_file.toString()`
+
+
+## to rename the file
+ fs.renameSync("file_name.txt", "file_rename");
