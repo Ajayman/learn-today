@@ -7,4 +7,21 @@
   and called it Node.exe lateron became Nodejs.
   
 # When to use Node js?
+  1. I/O bound
+  2. Data Streaming Applications
+  3. Real Time Application
   
+  
+# Node JS Prerequisites
+ 1. Basic JS(Advanced JS will be bonus)
+ 2. ES5 and ES6 | ECMAScript 6
+ 3. Client Server MOdel(Optional)
+ 
+ 
+# Nodel JS REPL
+ THe REPL features of Node is very useful in experimenting with Node.js codes and to debug Javascript codes.
+ 
+ Read - Reads user's input, parsest he input into Javascript data-structure, and stores in memory.
+ Eval- Takes and evaluates the data structure.
+ print - Prints the result.
+ Loop - Loops the above command until the user presses ctrl-c twice.
