@@ -63,3 +63,23 @@ while reading from a file or receiginf packets over the network
 
 ## to rename the file
  fs.renameSync("file_name.txt", "file_rename");
+
+
+# CRUD operations using FS Module in NodeJS
+
+
+
+# Async and Synch
+
+// here the data is read synchrounously first the data is read whether it takes longer time only then after the data is printed in console.
+`const fs = require("fs");
+const data = fs.readFileSync("read.txt","utf8");
+console.log(data);
+console.log("after the data");
+
+`
+// here it is an example of asynch where the after the data is printed on console first than reading data
+`const fs = require("fs");
+const data = fs.readFile("read.txt","utf8", (err,data)=>{console.log(data)});
+console.log("after the data");
+`
