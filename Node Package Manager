@@ -3,6 +3,7 @@
   2. The registry contains over 800,000 code packages.
   3. Open-source developers use npm to share software.
   4. It is like a warehouse like Amazon.
+  5. NPM is a package manager for the JS programming language. It is the default package manager for the JS runtime environment Node.js
   
   
 # Installing NPM
