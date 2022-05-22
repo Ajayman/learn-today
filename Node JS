@@ -87,3 +87,11 @@ console.log("after the data");
 
 #import and export/ require
  In common js before we use `require('module_name')` to invoke a module but now we use import and export (ES6 module) to invoke module one from other.
+
+
+#nodemon
+ reloads server when any changes occur.
+ 
+# nodemon installation
+ when installed delete nodemon.ps1 on the installation directory.
+ 
