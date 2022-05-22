@@ -95,3 +95,7 @@ console.log("after the data");
 # nodemon installation
  when installed delete nodemon.ps1 on the installation directory.
  
+
+# IIFE on javascript or wrapper function in nodejs
+ Immediately Invoked Function Expression is a design pattern which is also known as a Self-Executing Anonymous function and contains two major parts.
+ 
