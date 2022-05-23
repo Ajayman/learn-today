@@ -98,4 +98,12 @@ console.log("after the data");
 
 # IIFE on javascript or wrapper function in nodejs
  Immediately Invoked Function Expression is a design pattern which is also known as a Self-Executing Anonymous function and contains two major parts.
+ node js add code to module wrapper function which makes code private and execute when the module or that file is executed
+It is a design pattern which is also known as a Self-Executing Anonymous Function and contains two major parts.
+1. The first is the anonymous funciton with lexical scope enclosed with the Grouping Operator (). This prevents accessing variables within the IIFE idiom as well as 
+polluting the global scope.
+2. The second part created the immediately invoked function expression() through which the JS engine will directly interpret the function.
+
+
+
  
