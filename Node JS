@@ -139,3 +139,6 @@ polluting the global scope.
  JSON.parse(json_file) to convert json object to js object
  
  
+# simple API in Node Js
+ Api is a software intermediary that allows two applications to talk to each other. API is a like a service where data can be requested. 
+ Read Json file through node js file system and convert to js object.
