@@ -123,5 +123,19 @@ polluting the global scope.
  })
  `
  
+ ## When nothing server is responding to url request then go to control panel and program and feature and check iis and iis hostabel web core
+ 
  # Node JS Routing
+  `req.url` will return current url path.
+  there are many request properties like
+  request.end, request.connection, request.finish, request.getHeader,request.setHeader(name,value)
+
+
+# JSON in Node Js
+ JSON stands for JS Object Notation. JSON is a lightweight format for storing and transoorting data.
+ Json is often used when data is sent from a server to a web page.
+ 
+ JSON.stringify(js_object) to convert js object to json 
+ JSON.parse(json_file) to convert json object to js object
+ 
  
