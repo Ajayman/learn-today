@@ -4,7 +4,7 @@
   `
   
   ## why do we actually need Express.js? How it is useful for us to use with Node.js?
-    try to write a small Rest API server in plian Node.js (that is , using only core modules) and then in Express.js. The latter will take you 5-10x less time and lines of code.
+    try to write a small Rest API server in plain Node.js (that is , using only core modules) and then in Express.js. The latter will take you 5-10x less time and lines of code.
 
 ## Features
   1. Robust routing
@@ -30,3 +30,7 @@
  ### Similarly, the response object represents the HTTP response that the Express app sends when it receive an HTTP request.
  
  
+# Express JS is mostly useful for API and routing
+
+# Express JS routing
+# send html & json data as a response using Express js
