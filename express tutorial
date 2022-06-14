@@ -48,3 +48,14 @@
   
   Some popular template engines that work with Express are Pug, Mustache, and EJS. The Express application generator uses Jade as its default, but it also supports several
   others.
+
+#using hbs(handlebars)
+  First set which engine to choose for dynamic web content flow
+  `
+  app.set("view engine", "hbs")
+  `
+  
+  to render the funciton
+    app.get("", (req, res)=> {
+    res.render("index", {
+    hbs: "thaps"
