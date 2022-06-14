@@ -34,3 +34,17 @@
 
 # Express JS routing
 # send html & json data as a response using Express js
+
+
+# Serving static files in Express
+  To serve static files such as images, CSS files, and JS files, use the express.static built-in middleware funciton in Express.
+  The function signature is:
+    `express.static(root, [options])`
+    The root argument specifies the root directory from which to serve static assets, For more informaiton on thje options argument, see express.static.
+    
+ # Using template engines with Express
+  A template engine enables you to use static template files in your application. At runtime, the template engine replaces variables in a 
+  template file with actual values, and transforms the template into an HTML file sent to the client. THis approach makes it easier to design an HTML page.
+  
+  Some popular template engines that work with Express are Pug, Mustache, and EJS. The Express application generator uses Jade as its default, but it also supports several
+  others.
