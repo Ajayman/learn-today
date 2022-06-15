@@ -61,3 +61,6 @@
     hbs: "thaps"
 
 # in hbs file {{hbs}} to render hbs data //double curly braces for dynamic content output
+
+
+#Customzing the views directory
