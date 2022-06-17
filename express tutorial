@@ -32,6 +32,7 @@
  
 # Express JS is mostly useful for API and routing
 
+
 # Express JS routing
 # send html & json data as a response using Express js
 
@@ -67,4 +68,17 @@
 # Using Partials in Express
   Partials is like component in which the component are called in main index.hbs using {{>}}
 
-# 
+# routing the page not found url(rendering common page)
+  `app.get('*', (req, res)=> {
+    res.render("404", {
+      errorcomment: "Oops the page not found"
+    }
+  })`
+  
+ # routing the page about/* page
+  `app.get('/about/*', (req, res)=> {
+    res.render("404", {
+      errorcomment: "Oops the page not found"
+    }
+  })`
+  
