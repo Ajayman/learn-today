@@ -416,3 +416,10 @@ can be stored locally
       2. programmable network proxy allowing how network request are handled from your page.
       3. terminated when not in use and restarted when next needed. when restart can be accessed from the indexedDB API.
    ```
+   2022/6/20
+   
+   # Secure Shell
+      SSH is used to creawte a secure channel between a local and remote computeer, White SSH is commonly used for secure terminal accress and file transfers, it can also be used to create a secure tunnel between computers for forwarding other netwoek connections that are not normally encrypted
+   `
+   add .gitignore to add node_modules to ignore node_modules folder to github
+   `
