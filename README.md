@@ -423,3 +423,16 @@ can be stored locally
    `
    add .gitignore to add node_modules to ignore node_modules folder to github
    `
+
+   # share codes of node projects to github, friends, and clients
+      `
+      1. copy all file of project except node_modules and zip and share to the friends
+      unzip the file and write npm install code in new project
+   `
+   # in github
+      `
+         1. git init
+         2. add .gitignore file in the project
+         3. 
+         
+      `
