@@ -436,3 +436,10 @@ can be stored locally
          3. 
          
       `
+
+     # host node project in Heroku
+      1. push project in github
+      2. Create Heroku app `heroku create "app_name"`
+   `  3.  in package.json in scripts add `start: node path_app.js`
+      4. port should be specified as : `Process.env.port`
+      5.  
