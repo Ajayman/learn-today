@@ -443,3 +443,14 @@ can be stored locally
    `  3.  in package.json in scripts add `start: node path_app.js`
       4. port should be specified as : `Process.env.port`
       5.  
+
+   # First class function
+      ` First cflass funtion is called when funcitons in that language are treated like anyu other variable. For example in such a language, a function 
+      can be p[assed as an argument to other funcitons, can be returned by another function can be assigned as a value to a variable.
+      
+      const foo = funciton(){
+      // something 
+      } 
+      
+      foo(); // invoke it using the variable
+      `
