@@ -454,3 +454,27 @@ can be stored locally
       
       foo(); // invoke it using the variable
       `
+      
+   # Promises in JS
+      Promises are used to handle asynchronous operations in JS. They are easy to manage when dealing with multiple asynchronous operations where callbacks can 
+      create callback hell leading to unmanageable code. 
+      A Promise is an object that keeo track about whether a certain event has happended already or not.
+      Determines what happens after the eveents has happened.
+      
+      `THree stages in Promises
+         1. Pending
+         2. Resolved -> Fulfilled
+         3. Reject
+      `
+      cosnt pobjq = new Promise((resolve, reject) => {
+
+      setTimeout(( ) => {
+      let roll_no = [1,2,3,4,5];
+      resolve(roll_name);
+      reject('Error while communicating');
+      }, 2000);
+}
+   # Async/Await
+      There's a special syntax to work with promises in a more comforatble fashion, called async/await.  It's surprisingly easy to understand and use.
+      
+      The word "async before a funciton means one simple thing: a functoin always returns a promise.
