@@ -478,3 +478,14 @@ can be stored locally
       There's a special syntax to work with promises in a more comforatble fashion, called async/await.  It's surprisingly easy to understand and use.
       
       The word "async before a funciton means one simple thing: a functoin always returns a promise.
+      So the async keyword is added to functions to tell then to return a promise rather than directly returning the value 
+      
+      we can use await when calling any function that returns a Promise, including web API funcitons
+      
+      the keyword await makes JS wait until that proimise settles and returns its result.
+      
+      
+      
+ 
+
+      
