@@ -461,11 +461,13 @@ can be stored locally
       A Promise is an object that keeo track about whether a certain event has happended already or not.
       Determines what happens after the eveents has happened.
       
-      `THree stages in Promises
+      `Three stages in Promises
          1. Pending
          2. Resolved -> Fulfilled
          3. Reject
       `
+      // executor
+      // promise produce
       cosnt pobjq = new Promise((resolve, reject) => {
 
       setTimeout(( ) => {
@@ -474,6 +476,21 @@ can be stored locally
       reject('Error while communicating');
       }, 2000);
 }
+
+  //promise consume
+    pobj1.then((rollno)=> {
+        console.log(rollno);
+        return getBiodata(rollno[1]);
+        // getBiodata(rollno[1]).then((kuchbhi)=> {
+        //     console.log(kuchbhi);
+        }).then((kuchbhi)=> {
+            console.log(kuchbhi);
+        })
+    .catch((error)=> {
+        console.log(error);
+    })
+   
+
    # Async/Await
       There's a special syntax to work with promises in a more comforatble fashion, called async/await.  It's surprisingly easy to understand and use.
       
