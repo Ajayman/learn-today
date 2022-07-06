@@ -501,8 +501,72 @@ can be stored locally
       
       the keyword await makes JS wait until that proimise settles and returns its result.
       
-      
-      
- 
+ #   for create post we use app.post [http post request]
+   `
+      app.post("/router_path", async(req, res)=> {
+         try{
+             const user = new Student(req.body);
+             const createUser = await user.save();
+             res.status(201).send(createUser);
+        }catch(e){
+            res.status(400).send(e);
+        }
+      })
+   `
+   
+   # Get Http request and retrieve list
+  # read the data from registered students
+  `
+   app.get("/students", async (req, res)=> {
+    try{
+       const studentsData = await Student.find();
+        res.send(studentsData);
+      }catch(e){
+        res.send(e);
+      }
+   })
+`
+
+// get the individual student data using id
+app.get("/students/:id", async(req, res)=> {
+    try{
+        const _id = req.params.id;
+        // console.log(req.params.id);
+        const studentData = await Student.findById(_id);
+        if(!studentData){
+            return res.status(404).send();
+        }else{
+            res.send(studentData);
+        }
+    }catch(e){
+        res.status(500).send(e);
+    }
+})
+
+app.delete("/students/:id", async(req, res)=> {
+    try{
+        const _id = req.params.id;
+       const deleteStudent = await Student.findByIdAndDelete(req.params.id);
+       if(!req.params.id){
+        return res.status(400).send();
+       }
+       res.send(deleteStudent);
+    }catch(e){
+        res.status(500).send();
+    }
+})
+
+app.patch("/students/:id", async(req, res)=> {
+    try{
+        const _id = req.params.id;
+        const updateStudents = await Student.findByIdAndUpdate(_id, req.body, {
+            new: true
+        });
+        res.send(updateStudents);
+    }catch(e){
+        res.status(404).send(e);
+    }
+})    
+ # Delete request in REST API using NodeJS & MongoDB
 
       
