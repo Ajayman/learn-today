@@ -569,4 +569,14 @@ app.patch("/students/:id", async(req, res)=> {
 })    
  # Delete request in REST API using NodeJS & MongoDB
 
-      
+
+# Encryption Vs Hashing
+   Encrption algorithm is not used now a days as it is not secure and it is two ways encode and docode method. So it is easily decode within a sec.
+   // ahay ->encode -> bijay -> decode -> ahay
+   
+   Hashing
+   One way communication using a hash code md5 hash code is losely secured aas it can be found out within 2 sec. so use bcrypt so that it take 3  years to found out
+   the value.
+   
+   
+   
