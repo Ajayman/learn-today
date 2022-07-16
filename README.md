@@ -578,5 +578,16 @@ app.patch("/students/:id", async(req, res)=> {
    One way communication using a hash code md5 hash code is losely secured aas it can be found out within 2 sec. so use bcrypt so that it take 3  years to found out
    the value.
    
-   
+   // bcryptjs a hashing package for secure data record in database.
+   const bcrypt = require("bcryptjs");
+
+   const securePassword = async (password) => {
+      // converting password to 10 round technique 
+      const passwordHash = await bcrypt.hash(password, 10);
+      console.log(passwordHash);
+      const passwordMatch = await bcrypt.compare(password, passwordHash);
+      console.log(passwordMatch);
+    }
+
+   securePassword("thapa@123");
    
