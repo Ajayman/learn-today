@@ -14,5 +14,11 @@ Token based:
    
    The token is created and is attached to the cookies and verifies on every request whether the client is authenticated or not.
    
+   # JSON web token structure
+    1. header
+    2. Payload
+    3. Signature
+    typically looks like 
+    xxx.yyy.zzz
    Reference:
     https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4
