@@ -591,3 +591,13 @@ app.patch("/students/:id", async(req, res)=> {
 
    securePassword("thapa@123");
    
+ # middleware
+   It means the stage between the creating and saving data to the database. THat is creating token and changing the password to hash code.
+   
+   statics are the methods defined on the Model.
+   Methods are defined on the document(instance).
+   Use .statics for static methods.
+   Use .methods for instance methods.
+   
+   
+   
