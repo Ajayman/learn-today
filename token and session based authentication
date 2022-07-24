@@ -8,6 +8,7 @@ Token based:
    
    
    # JWT
+   https://flaviocopes.com/jwt/
     JSON Web Token is a standard used to create access tokens for an application. It works this way the server generates a token that certifies the user identity, and send
     it to the client. THe client will send the toke back to the server for every subsequent request , so the server knows the request comes form a particular identity. 
     THis architecture proces to be very effective in modern Web Apps, where after the user is authenticated we perform API requests either to a REST or a GraphQL API.
