@@ -600,4 +600,21 @@ app.patch("/students/:id", async(req, res)=> {
    Use .methods for instance methods.
    
    
+  # dotenv
+   for securing data we use dotenv file
+   By convention, the variables are written in uppercase letters(eg. PORT) Common examples of configuration data that are stored in environment variables include:
+   HTTP port
+   databse connection string\
+   location of static files
+   endpoint of external services
+   The .env parsing rules
+   Here are some basic parsing engine rules:
+   
+   BASIC = basic becomes{BASIC:'basic'}
+   empty lines are skipped
+   comments start with #
+   emplty values become empty string; BASIC = becomes{BASIC:''}
+   inner quotes are maintained
+   Existing environment variables are not modified; they are skipped.
+   
    
