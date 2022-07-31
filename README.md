@@ -618,3 +618,6 @@ app.patch("/students/:id", async(req, res)=> {
    Existing environment variables are not modified; they are skipped.
    
    
+ # cookies
+   cookies are small files which are stored on a user's computer. THey are designed to hold a modest amoutn of data specific to a particular client and websitre,
+   and can be accessed either by the web server or the client computer.
