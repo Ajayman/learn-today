@@ -620,4 +620,10 @@ app.patch("/students/:id", async(req, res)=> {
    
  # cookies
    cookies are small files which are stored on a user's computer. THey are designed to hold a modest amoutn of data specific to a particular client and websitre,
-   and can be accessed either by the web server or the client computer.
+   and can be accessed either by the web server or the client computer. THe cookies are stored on browser. The cookies parameter are
+   `res.cookie(cookie_name, cookie_value, option)`
+   
+ # In Postman we should set header as the authorization and type mentioned as bearer token and add token id to the token field. Wnen we host we should use cookie to
+ authorize the client. 
+ 
+ 
