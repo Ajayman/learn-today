@@ -21,3 +21,10 @@
  # Command line Client
   1. npm includes a CLI (Command Line Client) that can be used to download and install software.
   2. npm can manage dependencies.
+
+
+
+
+# cookie parser
+  parse cookie header and populate req.cookies with an object keyed by the cookie names. Optionally you may enable signed cookie support by passing a secret string,
+  which assigns req. secret so it may be used by other middleware.
