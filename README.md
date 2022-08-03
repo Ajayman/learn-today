@@ -626,4 +626,7 @@ app.patch("/students/:id", async(req, res)=> {
  # In Postman we should set header as the authorization and type mentioned as bearer token and add token id to the token field. Wnen we host we should use cookie to
  authorize the client. 
  
- 
+ # install cookie parser npm package to get cookie data 
+   `req.cookies.cookie_name`
+   
+ # 
