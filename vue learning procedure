@@ -16,6 +16,8 @@ VUe Instance
   ** $ is used to define vue property 
   ** life cycle created, mounted, destroyed
   
+V-bind
+** it is an attribute which is called a directive. They are special reactive behavior to the rendered DOM. 
   
 Class and style binding
   ** changing the element attribute in class, inline style 
