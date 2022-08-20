@@ -1,7 +1,7 @@
 # Tutorials based on https://laracasts.com/series/learn-vue-3-step-by-step/episodes/2
  #Vue 3
 
-  ## 1. Vue Basics
+  ## Episode 1. Vue Basics
     The tutorials tells about the how vue on script tags works
       <script scr="https://unpkg.com/vue@3"></script>
       
@@ -21,9 +21,16 @@
         vue models and double curly braces works
         
         
-  ## 2. Attribute binding and Event
+  ## Episode 2. Attribute binding and Event
     THe code is similar as vue attribute binding and Event in vue 2. The attribute binding means the html attribute like class, id, value changes using
     `v-binding:class="vue-data-value` and events using v-on:click="method-name"
     
     
-  ## 
+  ## Episode 3. Lists and Computed Properties 
+   In this episode the v-for attribute must have :key attribute to get ride from the issue (clicking one item affect the other). Must be the primary key of the list.
+   Order of the array might change if not mention :key attribute in for loop
+   
+  ## episode 4. Your first custom Vue Component
+   component are reusable vue code. The component have same properties, option, methods as vue property. The custom vue component can be named as 'component-name'
+   and can be included with slot(the custom code by html code)
+    
