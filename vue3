@@ -34,3 +34,5 @@
    component are reusable vue code. The component have same properties, option, methods as vue property. The custom vue component can be named as 'component-name'
    and can be included with slot(the custom code by html code)
     
+ ## episode 5. One vue component per file
+   We have learned about how each One vue component can be stored with on its own file.
