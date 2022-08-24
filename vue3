@@ -52,4 +52,21 @@
    <custom-tag :passing-data="parent-variable"></custom-tag>
    
    
- ## 
+ ## episode 7 Bring it all together
+ 
+ ## episode 8 Handle a form submission
+  The episode showing the child passing data to parent using $emit funtion in the child to pass data to the parent. 
+  ### the child 
+  // emit the vue function so precedding function by $
+  this.$emit('emit_function_name', passing_value )
+  
+  ### the parent
+  in the custom tag the code be like
+  <custom-tag @click="emit_function"></custom-tag>
+  
+  emit_function(passing_value){
+   ---------
+  }
+  
+  
+ 
