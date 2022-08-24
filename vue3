@@ -36,3 +36,20 @@
     
  ## episode 5. One vue component per file
    We have learned about how each One vue component can be stored with on its own file.
+   
+   
+ ## episode 6. Component props
+  The data communication between parent to child is done throgh props
+  ### the props the defined in the child using props object
+  props: {
+    passing-data-variable: {
+     type: data-type,
+     default: default-value
+    }
+  }
+  
+  ### the custom tag in parent and value is accessed as attribute and 
+   <custom-tag :passing-data="parent-variable"></custom-tag>
+   
+   
+ ## 
