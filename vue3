@@ -75,3 +75,10 @@
 
 # Episode 17
  @ symbol in path means an alias which is the defining the path directory
+ 
+# Episode 18
+ Before this episode we are learning about options api but from onward we are learning composition api
+ Composition APIs primarily used together iwth <script setup> syntax in Single-File components.
+  Composition API is a set of APIs that allows us to author Vue components using imported functions instead of declaring options.
+  It covers reactivity api(state, computed state and watchers) and lifecycle hooks(component lifecycle), dependency injection(allow us to leverage Vue's dependency injection)
+  system while using Reactivity APIs.
