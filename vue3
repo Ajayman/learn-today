@@ -70,4 +70,8 @@
   
  # Eoisode 16
  # vue router routes, creating links, history management, scroll position, memory 
-  
+ ## .vue file is a single file component containing scripts, templates and styles tags on its own
+
+
+# Episode 17
+ @ symbol in path means an alias which is the defining the path directory
