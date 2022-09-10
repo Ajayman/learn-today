@@ -86,5 +86,5 @@ Composition APIs comes into play to remove messy code between the components
 
 
 # Episode 19
- 
-
+ ## Mixins
+  The mixins simply means a components like js file which is imported and code is reused using import and used using mixins: [import_name]
