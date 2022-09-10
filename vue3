@@ -82,3 +82,9 @@
   Composition API is a set of APIs that allows us to author Vue components using imported functions instead of declaring options.
   It covers reactivity api(state, computed state and watchers) and lifecycle hooks(component lifecycle), dependency injection(allow us to leverage Vue's dependency injection)
   system while using Reactivity APIs.
+Composition APIs comes into play to remove messy code between the components
+
+
+# Episode 19
+ 
+
