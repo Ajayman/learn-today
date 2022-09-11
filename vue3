@@ -69,6 +69,8 @@
   }
   
  # Eoisode 16
+ ## Installing vite 
+  `npm init vue@latest`
  # vue router routes, creating links, history management, scroll position, memory 
  ## .vue file is a single file component containing scripts, templates and styles tags on its own
 
