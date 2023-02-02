@@ -1,24 +1,26 @@
-# Node JS
+# Node Tutorial in Hindi 2023
+# 1. Introduction to node js
+## Node JS
  1. Node.js is a Javascript runtime built on Chrome's V8 javascript Engine
  2. Node.js is  
  
-# History Of Nodejs
+## History Of Nodejs
   In 2009 an idea came in the mind of Ryan Dahl (Google Engineer) that why not run JavaScript outside browser, so he took V8 engine and embeded in a C++ program
   and called it Node.exe lateron became Nodejs.
   
-# When to use Node js?
+## When to use Node js?
   1. I/O bound
   2. Data Streaming Applications
   3. Real Time Application
   
-  
-# Node JS Prerequisites
+# Prerequist for Node js  
+## Node JS Prerequisites
  1. Basic JS(Advanced JS will be bonus)
  2. ES5 and ES6 | ECMAScript 6
  3. Client Server MOdel(Optional)
  
- 
-# Nodel JS REPL
+# REPL in node js
+## Nodel JS REPL
  THe REPL features of Node is very useful in experimenting with Node.js codes and to debug Javascript codes.
  
  Read - Reads user's input, parsest he input into Javascript data-structure, and stores in memory.
@@ -38,6 +40,8 @@
   4. use (_) to get the last result
   5. we can use editor mode
 
+
+# Mastering Node Js COre Modules
 
 ## Node JS Core Modules
  Consider modules to be the same as JS Libraries. A set of function s you want to inculude in your application.
