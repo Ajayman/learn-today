@@ -19,7 +19,7 @@
  2. ES5 and ES6 | ECMAScript 6
  3. Client Server MOdel(Optional)
  
-# REPL in node js
+# REPL in node js(like cmd for node js)
 ## Nodel JS REPL
  THe REPL features of Node is very useful in experimenting with Node.js codes and to debug Javascript codes.
  
