@@ -2,3 +2,14 @@
   Filtering, sorting, 
   
 # Lets create Server with Express JS
+
+# Setup Routes and controllers using Express Routers
+  Routes tell path where to load but controller tells what content to load according to routes.
+  THen import routes in main app.js file and use middleware to set default path app.use("/api/products", products_routes)
+  
+# Testing api using Postman
+  creating collection folder and create different routes with its own path.
+  
+#connect database using Mongodb
+  Problem- db connection
+  solutions: https://stackoverflow.com/questions/60020381/mongodb-atlas-bad-auth-authentication-failed-code-8000
