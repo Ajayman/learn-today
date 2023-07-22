@@ -1,0 +1,36 @@
+Introduction
+1. Mongoose is a schema based data model
+
+
+2. Schema design
+var mongoose = require('mongoose');
+var schema = mongoose.Schema;
+
+var BookSchema = new Schema({
+title: {
+type: String,
+required: true,
+unique: true
+},
+keywords: Array,
+published: Boolean,
+author:{
+type: Schema.ObjectId,
+ref: 'User'
+},
+// Embeded sub-document
+detail: {
+  modelNumber: Number,
+  hardcover: Boolean,
+reviews: Number,
+rank: Number
+}
+)
+
+3. Build a crud app-1
+//For starting a route and run server
+var express = require("express");
+var app = express();
+// body parser for grabbing data from frontend as well as parameter within URL
+var bodyParser = require('body-parser');
+
