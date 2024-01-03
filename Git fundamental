@@ -1,0 +1,84 @@
+Learning Git 
+What is Git?
+Git is a tool that helps developers work together on software projects. It keeps tracks of changes in the code, making it easy for multiple people to collaborate without messing things up. 
+
+Git command-
+git clone - clonning a repositoy on the local machine
+git inti - initialize a new Git repository
+git version- displays the installed git version
+git status - displays the state of the code.
+git add <-file name-> adds new or changed files tin your working directory to the git staging area
+git add. adds all
+git commit - it is the recod of change.
+git commit -m "some message"
+git commit --amend: changes to the most recent commit
+
+remote-
+git remote add origin <respository_url>
+git remote -v to verify remote
+
+branch
+git branch- check branch
+git branch -M <name> to rename
+git checkout <b-name> to navigate
+git checkout -b <new-b> create new
+git checkout -d <b-name> delete b
+
+push-
+git push origin <branch> or main upload local repo to remote repo
+
+pull-
+git pull origin <branch> or main - fetch and merge changes from a remote repository
+
+diff-
+git diff<branch_name> - to compare commits, branches, files and more
+
+log
+git log - display commit history
+
+undoing changes-
+Case 1 - staged changes
+git reset <file_name> 
+git reset  // reset all
+
+Case 2 - commit changes (for one)
+git reset HEAD~1
+
+Case 3. commit changes (for many)
+git reset <commit-hash>
+git reset --hard <commit-hash>
+
+
+merge- merges one branch into another with 2 ways
+1. Using git merge command
+git merge <branch_name>
+
+2. Using pull request (Github)
+
+
+Blobs- Binary Large Object
+Each version of a file is represented by blob. A blobb holds the file data but doesnot contain any metadata about the file.
+
+Trees-
+ Tree is an object which represents a directory. It holds blobs as well as other sub-directories.
+
+Commits - 
+Commit holds the current state of the repository. A commit is also named by SHA1 hash.
+
+Branches -
+Branches are used to create another line of development. By default git has a master branches. Usually, a branch is created to work on a new features.Once the feature is completed, it is merged back with the master branch and delete the branch. 
+
+Tags - 
+Tag assigns a meaningful name with a specific version in the repository.
+
+Clone-
+Creates a instance of repositories.  Clone operation not only checks out the working copy, but it also mirrors the complete repository. 
+
+Pull - 
+Pull operation copies the changes from a remote repository instance to a local one. 
+
+Push-
+Push operation copies changes from a local repository instance to a remote one. 
+
+Head-
+head is a pointer, which points to the latest commit in the branch. 
